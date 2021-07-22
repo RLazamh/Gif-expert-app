@@ -1,3 +1,11 @@
+# CSS
+https://animate.style/
+
+# Estructure 
+
+https://es.reactjs.org/docs/faq-structure.html
+https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
