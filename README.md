@@ -1,3 +1,7 @@
+# Server fast
+
+https://www.npmjs.com/package/http-server
+
 # CSS
 https://animate.style/
 
