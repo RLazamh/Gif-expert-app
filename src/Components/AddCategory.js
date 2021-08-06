@@ -10,7 +10,6 @@ function AddCategory({setCategories}) {
     }
     const handleForm = (event)=>{
         event.preventDefault();
-        console.log('handleInputText Llamado')
 
         if(inputText.trim().length > 2){
             setCategories((category)=>[inputText,...category]);

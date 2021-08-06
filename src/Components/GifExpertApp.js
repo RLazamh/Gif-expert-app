@@ -3,10 +3,11 @@ import React, { useState } from 'react'
 import AddCategory from './AddCategory';
 import GifGrid from './GifGrid';
 
-function GifExpertApp(props) {
+const  GifExpertApp = ({defaultCategories = [] }) => {
 
     // const categories = ['anime','terror','heroes'];
-    const [categories, setCategories] =useState(['naruto']);
+    // if(defaultCategories.length === 0) defaultCategories = ['One Punch Man']
+    const [categories, setCategories] =useState(defaultCategories);
     // --MI solucion 
     // const handleAdd = ()=>{
     //     setCategories(categories.concat('comedia'));

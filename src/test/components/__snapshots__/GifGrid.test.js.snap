@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en el componente <GifGrid /> should No show the <p />  1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__fadeIn"
+  >
+    Hola
+  </h2>
+  <div
+    className="card-grid "
+  >
+    <GifGirdItem
+      id="ABC"
+      key="ABC"
+      title="Cualquier cosa"
+      url="https://loca.jpg"
+    />
+    <GifGirdItem
+      id="123"
+      key="123"
+      title="Cualquier cosa"
+      url="https://loca.jpg"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en el componente <GifGrid /> should match with snapshot  1`] = `
+<Fragment>
+  <h2
+    className="animate__animated animate__fadeIn"
+  >
+    Hola
+  </h2>
+  <p
+    className="animate__animated animate__flash"
+  >
+    Cargando.......
+  </p>
+  <div
+    className="card-grid "
+  />
+</Fragment>
+`;
